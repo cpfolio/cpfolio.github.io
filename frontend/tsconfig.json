@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest", "vitest"],
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["../shared/*"],
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.json", "**/*.html"],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
