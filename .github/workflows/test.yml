@@ -1,0 +1,29 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      # Frontend tests
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm i
+
+      - name: Format check
+        working-directory: frontend
+        run: npm run format:check
+
+      - name: Run frontend tests
+        working-directory: frontend
+        run: npm run test

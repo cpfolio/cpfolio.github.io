@@ -1,0 +1,22 @@
+:root {
+  --dark-0: #212529;
+  --dark-1: #343a40;
+  --dark-2: #495057;
+  --dark-3: #6c757d;
+  --dark-4: #adb5bd;
+  --dark-5: #ced4da;
+  --dark-6: #dee2e6;
+  --dark-7: #e9ecef;
+  --dark-8: #f8f9fa;
+  --light-0: #f8f9fa;
+  --light-1: #e9ecef;
+  --light-2: #dee2e6;
+  --light-3: #ced4da;
+  --light-4: #adb5bd;
+  --light-5: #6c757d;
+  --light-6: #495057;
+  --light-7: #343a40;
+  --light-8: #212529;
+
+  --background: var(--light-0);
+}

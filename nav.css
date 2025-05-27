@@ -1,0 +1,38 @@
+nav {
+  background-color: var(--background);
+  padding: 0.5rem 2rem;
+}
+
+nav div {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+/* Title on the left */
+.navbar-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Links on the right */
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: var(--dark-2);
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--dark-0);
+}
