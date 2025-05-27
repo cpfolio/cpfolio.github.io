@@ -1,0 +1,6 @@
+export const Platform = {
+  CODEFORCES: "CODEFORCES",
+  LEETCODE: "LEETCODE",
+  ATCODER: "ATCODER",
+  CODECHEF: "CODECHEF",
+};
